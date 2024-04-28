@@ -1,19 +1,19 @@
 {
-  "name": "n8n-nodes-<...>",
+  "name": "n8n-nodes-panrock",
   "version": "0.1.0",
-  "description": "",
+  "description": " Plugin n8n con IA de OpenAI para chatbots inteligentes y análisis de conversaciones. ¡Convierte texto en acción!",
   "keywords": [
-    "n8n-community-node-package"
+    "n8n-community-node-panrock"
   ],
-  "license": "MIT",
-  "homepage": "",
+  "license": "GPL-2.0-only",
+  "homepage": "http://panrock.luisbarra.cl",
   "author": {
-    "name": "",
-    "email": ""
+    "name": "Luis Barra",
+    "email": "luisbarradev@gmail.com"
   },
   "repository": {
     "type": "git",
-    "url": "https://github.com/<...>/n8n-nodes-<...>.git"
+    "url": "https://github.com/luisbarradev/n8n-nodes-panrock.git"
   },
   "main": "index.js",
   "scripts": {
@@ -30,12 +30,10 @@
   "n8n": {
     "n8nNodesApiVersion": 1,
     "credentials": [
-      "dist/credentials/ExampleCredentialsApi.credentials.js",
-      "dist/credentials/HttpBinApi.credentials.js"
+      "dist/credentials/PanRockApi.credentials.js"
     ],
     "nodes": [
-      "dist/nodes/ExampleNode/ExampleNode.node.js",
-      "dist/nodes/HttpBin/HttpBin.node.js"
+      "dist/nodes/PanRock/PanRock.node.js"
     ]
   },
   "devDependencies": {
